@@ -1,0 +1,18 @@
+{
+  "name": "filterPlugin",
+  "version": "0.0.0",
+  "authors": [
+    "Shane Keulen <shane.keulen@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.1"
+  }
+}
