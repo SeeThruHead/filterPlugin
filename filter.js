@@ -7,6 +7,10 @@
   }
   $.fn.createFilter = function(list, options) {
     // module functions
+    var options = {
+      caseSensitive: true
+    }
+    // options.extens
     function bindChange(elems) {
       elems.on('input', function() {
         $this = $(this);
@@ -40,16 +44,7 @@
       }
     };
     //module business
-    console.log(this);
     bindChange(this);
-    // console.log(matches);
     return this;
   };
 }(jQuery));
-
-$(function() {
-  // console.log(fakeArray);
-  $('.filterer').createFilter(fakeArray, {caseSensitive: false});
-});
-
-
