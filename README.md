@@ -15,3 +15,5 @@ and options is an object containing zero of more of the following properties (sh
   wholeWords: false
 }
 ```
+
+[Checkout a simple demo here](http://seethruhead.github.io/filterPlugin)
