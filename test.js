@@ -7,5 +7,5 @@ $(function() {
 
   var fakeArray = createFakeData(9999);
 
-  $('.filterer').createFilter(fakeArray, {caseSensitive: false});
+  $('.filterer').createFilter(fakeArray, {caseSensitive: false, wholeWords: true});
 });
